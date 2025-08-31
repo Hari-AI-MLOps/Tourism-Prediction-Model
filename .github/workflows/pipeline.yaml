@@ -54,7 +54,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           cd Master
-          python main.py --job register
+            python ../main.py --job register
         continue-on-error: false
 
       - name: Check Pipeline status
